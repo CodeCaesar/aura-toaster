@@ -4,6 +4,8 @@ A fluent api wrapper for the [lightning:notificationsLibrary](https://developer.
 
 ## Methods
 
+`notice`, `sticky`, and `pester` all return the aura component instance so you can chain your call into the message.
+
 | Name | Return Type | Arguments | Description |
 |---|---|---|---|
 | notice | `toaster` | `header: String` | Modifier. The next message will be invoked as an SLDS Alert |
