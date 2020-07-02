@@ -1,0 +1,30 @@
+<aura:component description="Toaster">
+  <lightning:notificationsLibrary aura:id="notifier" />
+
+  <aura:attribute name="mode" type="String" default="dismissable" />
+  <aura:attribute name="header" type="String" />
+
+  <aura:method name="sticky" action="{!c.sticky}"></aura:method>
+  <aura:method name="pester" action="{!c.pester}"></aura:method>
+
+  <aura:method name="notice" action="{!c.notice}">
+    <aura:attribute name="header" type="String" />
+  </aura:method>
+
+  <aura:method name="error" action="{!c.error}">
+    <aura:attribute name="title" type="String" />
+    <aura:attribute name="message" type="String" />
+  </aura:method>
+  <aura:method name="info" action="{!c.info}">
+    <aura:attribute name="title" type="String" />
+    <aura:attribute name="message" type="String" />
+  </aura:method>
+  <aura:method name="success" action="{!c.success}">
+    <aura:attribute name="title" type="String" />
+    <aura:attribute name="message" type="String" />
+  </aura:method>
+  <aura:method name="warning" action="{!c.warning}">
+    <aura:attribute name="title" type="String" />
+    <aura:attribute name="message" type="String" />
+  </aura:method>
+</aura:component>
