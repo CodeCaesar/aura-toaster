@@ -1,3 +1,8 @@
+<a href="https://githubsfdeploy.herokuapp.com">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 # aura-toaster
 
 A fluent api wrapper for the [lightning:notificationsLibrary](https://developer.salesforce.com/docs/component-library/bundle/lightning:notificationsLibrary/documentation).
